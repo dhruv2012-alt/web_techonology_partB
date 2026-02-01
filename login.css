@@ -1,0 +1,60 @@
+/* Basic styling */
+form {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+/* Valid input */
+input:valid {
+    border-color: green;
+    background-color: #e0ffe0;
+}
+
+/* Invalid input */
+input:invalid {
+    border-color: red;
+    background-color: #ffe0e0;
+}
+
+/* Hover effect for input fields */
+input:hover {
+    border-color: #999;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
